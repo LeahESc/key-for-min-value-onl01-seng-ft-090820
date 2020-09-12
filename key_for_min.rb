@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   d_value = 1000
   d_key = 0 
     if arr == 0
-     puts "Empty hash."
+     puts "nil."
     else arr.each do |x|
       if x[1] < d_value
       d_value = x[1]
