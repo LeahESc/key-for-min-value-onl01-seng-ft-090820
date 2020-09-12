@@ -10,8 +10,6 @@ def key_for_min_value(name_hash)
       d_value = x[1]
       d_key = x[0]
       return d_key
-    elsif x[0] == 0
-      puts "there's nothing here."
     end
   end
 end
