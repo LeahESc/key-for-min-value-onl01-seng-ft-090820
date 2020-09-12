@@ -14,5 +14,4 @@ def key_for_min_value(name_hash)
       puts "Empty hash"
     end
   end
-  d_key
 end
