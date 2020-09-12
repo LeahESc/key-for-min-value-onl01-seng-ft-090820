@@ -9,6 +9,9 @@ def key_for_min_value(name_hash)
     if x[1] < d_value
       d_value = x[1]
       d_key = x[0]
+      d_key
+    else 
+      puts "Empty hash"
     end
   end
   d_key
