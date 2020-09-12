@@ -6,9 +6,8 @@ def key_for_min_value(name_hash)
   d_value = 1000
   d_key = 0 
   arr.each do |x|
-    if x < 
+    if x < d_value
+      x =
   
-  each do |key, value|
-    if :value[1] < value[]
-  key
+  
 end
